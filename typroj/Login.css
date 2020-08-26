@@ -16,8 +16,8 @@ div{
 	border-style: solid;
 	border-width: 2px;
 	border-radius: 5px;
-	padding: 50px;
- 	margin: 20px;
+	padding: 30px;
+ 	margin: 10px;
 }
 
 .sub1b {
@@ -64,7 +64,8 @@ input {
 }
 
 .spaceobj{
-	padding-left: 200px;
+	padding-left: 50px;
+  padding-right: 30px;
 }
 h4{
 	text-align: right;
