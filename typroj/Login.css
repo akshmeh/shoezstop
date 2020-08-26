@@ -1,7 +1,7 @@
 h1 {
 	color: white;
 	text-align: center;
-	font-size: 50px;
+	font-size: 70px;
 	background-color: black;
 	}
 
@@ -20,12 +20,54 @@ div{
  	margin: 20px;
 }
 
-div label{
-	position: absolute;
-  left: 400px;
-  
+.sub1b {
+  border: none;
+  background-color: black
+  color: white;
+  padding: 5px 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
-#sub1:hover{
+a:link, a:visited {
 
+  background-color: white;
+  color: black;
+  padding: 5px 20px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+}
+.floathome{
+	float: right;
+}
+
+a:hover, a:active {
+  background-color: black;
+  color: white;
+  border-style: solid;
+  border-color: white;
+  border-width:2px;
+  border-radius: 2px;
+}
+
+.centerobj{
+	text-align: center;
+}
+
+input {
+  border: 2px solid white;
+  border-radius: 5px;
+
+}
+
+.spaceobj{
+	padding-left: 200px;
+}
+h4{
+	text-align: right;
+	color:white;
 }
 
