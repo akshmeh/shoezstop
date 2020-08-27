@@ -1,0 +1,99 @@
+a:link, a:visited{
+
+  background-color: black;
+  color: white;
+  padding: 5px 20px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: white;
+  color: black;
+  border-style: solid;
+  border-color: black;
+  border-width:1px;
+  border-radius: 2px;
+}
+#a1:hover ,#a1:link{
+  border-radius: 100px;
+  background-color: white;
+
+}
+
+body{
+  background-color: white;
+}
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 70px;
+  background-color: white;
+  
+  }
+
+ul#menu li{
+  padding-left: 8%;
+  padding-right: 2%;
+  margin: auto;
+  display:inline;
+}
+
+ul#rightnav li{
+  padding-left: 1%;
+  display:inline;
+  float: right;
+}
+
+.navbor
+{
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50px;
+}
+
+.searchc{
+  float: left;
+  padding-left: 1%;
+}
+.navbor1
+{
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+
+.sub1b {
+  border: 1px solid grey;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  display: inline-flex;
+  margin: 10px 5px;
+  cursor: pointer;
+  border-radius: 2px;
+  width: 13%;
+  height:15%;
+
+
+}
+
+.texfi{
+  
+  border-color: black;
+
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  width: 50%;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+.texfi1:focus {
+  width: 70%;
+}
+
