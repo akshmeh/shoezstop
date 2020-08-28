@@ -5,7 +5,7 @@
 	<title>ShoezStop.com</title>
 	<link rel="stylesheet" href="css/index1.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
@@ -15,19 +15,17 @@
 			<div class="searchc">
 			<form action="">
 			<input class="texfi texfi1" type="text" placeholder="   Search" name="search">
-			<button class="sub1b"><i class="fa fa-search" aria-hidden="true"></i></button>
+			<button class="sub1b"><i class="fa fa-search" aria-hidden="true" width="20"height="20"></i></button>
 			</form>
 	              <br>
 	          </div>
 			<div>
 	                <ul id="rightnav">
 	                  <li>
-	                  	<a href="LoginPage1.html" id="a1"><img alt="profile"src="images/profile.png"
-	         width="20" height="20"></a>
+	                  	<a href="LoginPage1.html" class="a1 a2"><i class="fa fa-user" aria-hidden="true"></i></a>
 	     			</li>
 	                  <li>
-	                    <a href="cart.html" id="a1"><img alt="cart" src="images/cart.png"
-	         width="20" height="20"></a>
+	                    <a href="cart.html" class="a1 a2"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
 	                  </li>
 	                </ul>
 	       </div>
@@ -40,27 +38,45 @@
       </div>
 	<nav role="navigation">
         <div class="navbor">
-          <ul id="menu" >
-            <li>
-              <a href="index.html">Home</a>
-            </li>
-            <li>
-              <a href="product.html">Product</a>
-            </li>
-            <li><a href="shop.html">Shop</a></li>
-            <li><a href="#">Catalogue</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
+         
+            <table>
+
+            	<td class="spaceobj" >
+                <a href="index.html">Home</a>
+            	</td>
+            	<td class="spaceobj">
+            	<a href="product.html">Product</a>
+            	</td>
+            	<td class="spaceobj">            	
+            	<a href="shop.html">Shop</a>
+            	</td>
+            	<td class="spaceobj">            	
+            	<div class="navbar">
+					  <div class="dropdown">
+					    <button class="dropbtn">Category&nbsp;<i class="fa fa-caret-down"></i>
+					    </button>
+					    <div class="dropdown-content">
+					      <a href="#">Men</a>
+					      <a href="#">Women</a>
+					    </div>
+					  </div> 
+					</div>
+             	</td>
+            	<td class="spaceobj">           	
+            	<a href="contact.html">Contact</a>
+            </td>
+          </table>
           </div>
       </nav>
 	</header>
 </div>
-   <div class="site-blocks-cover" style="background-image: url(images/hero_1.jpg);" data-aos="fade">
+   <div class="site-blocks-cover bg1img" style="background-image: url(images/hero_1.jpg);" data-aos="fade">
       <div class="container">
         <div class="row align-items-start align-items-md-center justify-content-end">
           <div class="col-md-5 text-center text-md-left pt-5 pt-md-0">
               <p>
-                <a href="#" class="btn btn-sm btn-primary" style="float: right;">Shop Now</a>
+              	<p class="btn-sm1">Make In India</p>
+                <a href="#" class="btn-sm">Shop Now</a>
               </p>
             </div>
           </div>

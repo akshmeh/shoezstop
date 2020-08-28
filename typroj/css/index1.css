@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 a:link, a:visited{
 
   background-color: black;
@@ -16,9 +20,23 @@ a:hover, a:active {
   border-width:1px;
   border-radius: 2px;
 }
-#a1:hover ,#a1:link{
-  border-radius: 100px;
+
+.a1>:link,:visited{
+  background-color: black;
+  color: white;
+  padding: 5px 20px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+}
+}
+.a2>:hover ,:active{
   background-color: white;
+  color: black;
+  border-style: solid;
+  border-color: black;
+  border-width:1px;
+  border-radius:100px;
 
 }
 
@@ -34,10 +52,10 @@ h1 {
   }
 
 ul#menu li{
-  padding-left: 8%;
-  padding-right: 2%;
-  margin: auto;
+  margin-right:9%;
+  margin-left: 3%;
   display:inline;
+  width: 900px;
 }
 
 ul#rightnav li{
@@ -52,48 +70,198 @@ ul#rightnav li{
   border-style: solid;
   border-width: 2px;
   border-radius: 50px;
+  margin: 10px;
+  padding:10px;
 }
 
 .searchc{
   float: left;
   padding-left: 1%;
 }
-.navbor1
-{
-  border-color: black;
-  border-style: solid;
-  border-width: 2px;
-  border-radius: 5px;
-}
+
 
 .sub1b {
   border: 1px solid grey;
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   text-decoration: none;
-  display: inline-flex;
-  margin: 10px 5px;
   cursor: pointer;
   border-radius: 2px;
-  width: 13%;
-  height:15%;
-
+  padding:5px 10px 5px 10px;
 
 }
 
 .texfi{
   
   border-color: black;
-
   border-style: solid;
   border-width: 2px;
   border-radius: 5px;
   width: 50%;
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
+  height: 30px;
 }
 
 .texfi1:focus {
   width: 70%;
 }
 
+.site-blocks-cover 
+{
+  position: relative;
+}
+.btn-sm{
+  position: absolute;
+  top:70%;
+  left:75%;
+}
+.btn-sm1{
+  color: black;
+  font-size: 10px;
+  position: absolute;
+  top:55%;
+  left:75%;
+}
+.spaceobj{
+  padding-left: 70px;
+  padding-right: 100px;
+}
+
+@media(min-width: 1200px){
+  .spaceobj{
+    padding-left: 70px;
+    padding-right: 100px;
+  }
+}
+
+@media(min-width: 375px) and (max-width: 1024px){
+
+  .spaceobj{
+    padding-left: 50px;
+    padding-right: 30px;
+  }
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  padding-right:10px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 20px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+@media(min-width: 1200px){
+  .dropdown .dropbtn {
+  font-size: 14px;
+  width: 110px;
+  padding-right:10px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 20px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+}
+
+@media(min-width: 375px) and (max-width: 1024px){
+
+  .dropdown .dropbtn {
+    font-size: 16px;
+    padding-right:10px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 20px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+ } 
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color:white;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.bg1img{
+  width:1200px;
+  height:600px;
+}
+
+@media(max-width: 768px){
+  .bg1img{
+  margin:10px;
+  width:500px;
+  height:300px;
+}
+}
+
+@media(min-width: 768px) and (max-width: 1440px){
+.bg1img{
+  margin: 20px;
+  width:900px;
+  height:600px;
+}
+}
+@media(min-width: 1200px){
+  .bg1img{
+  margin:10px;
+  width:500px;
+  height:300px;
+  margin: 20px;
+  margin-left: 70px;
+}
+}

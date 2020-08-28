@@ -1,3 +1,8 @@
+*{
+  box-sizing: border-box;
+}
+
+
 h1 {
 	color: black;
 	text-align: center;
@@ -18,7 +23,21 @@ div{
 	border-radius: 5px;
 	padding: 30px;
  	margin: 10px;
+  width: 800px;
 }
+
+@media(min-width: 1200px){
+  div{
+    margin-left: 19%;
+  }
+}
+
+@media(min-width: 375px) and (max-width: 1024px){
+  div{
+    margin-left: 8%;
+  }
+}
+
 
 .sub1b {
   border: none;
